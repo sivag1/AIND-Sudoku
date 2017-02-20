@@ -3,11 +3,11 @@
 
 # Question 1 (Naked Twins)
 Q: How do we use constraint propagation to solve the naked twins problem?  
-A: *Student should provide answer here*
+A: As we do the usual eliminate and only_choice methods, introduce one more operation for handling naked twins. In that, identify the possible naked twins, loop over them to remove those twin numbers from their peers.
 
 # Question 2 (Diagonal Sudoku)
 Q: How do we use constraint propagation to solve the diagonal sudoku problem?  
-A: *Student should provide answer here*
+A: This is very easy when you include the two diagonals to the list of units used in the regular unit list and peers calculation. That way this additional constraint is also included in the reduce_puzzle operation.
 
 ### Install
 
